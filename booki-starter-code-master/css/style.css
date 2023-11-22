@@ -121,45 +121,849 @@ a {
     margin-bottom: 5px;
 }
 
-.head-container {
+/*** récop code header**/
 
-    background-color: rgb(255, 255, 255);
-    background-size:  fill 79px;
+ul {
 
+    list-style: none;
 }
 
+/* Header */
+header {
+width: 1440px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/* Menu */
+.header-nav {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 50px;
+gap: 68px;
+
+position: absolute;
+width: 344px;
+height: 35px;
+right: 0px;
+top: 0px;
+}
+
+
+/* Buttons */
+.header-texts{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 68px;
+
+width: 244px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Btn Hébergement */
+.hebergements-header{
+width: 113px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* Hébergements */
+.hebergement-texte {
+position: absolute;
+width: 112px;
+height: 19px;
+left: 0px;
+top: 16px;
+}
+
+nav li:hover {
+
+    color: #0065FC;
+    border-top: #0065FC;
+    border-top-style: solid;
+}
+
+/* Btn Activités */
+.Activites-header{
+width: 63px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Activités */
+.activites-tete {
+position: absolute;
+width: 63px;
+height: 19px;
+left: 181px;
+top: 16px;
+
+/* Nav/Standard */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 63px;
+height: 2px;
+left: 181px;
+top: 0px;
+
+/* Transparent */
+
+
+/* Rectangle 25 */
+
+position: absolute;
+visibility: hidden;
+width: 63px;
+height: 2px;
+left: 181px;
+top: 0px;
+
+/* Blue */
+background: #0065FC;
+
+
+/* Logo/Reservia */
+
+.head-logo {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px 50px;
+gap: 10px;
+
+position: absolute;
+width: 161.09px;
+height: 79px;
+left: 0px;
+top: 0px;
+}
+
+
+/* Logo */
 .logo-booki {
+width: 61.09px;
+height: 19px;
+margin-top: 0px;
+  padding-left: 0px;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
 
-    width: 62px;
-    height: 19px;
-    padding: 30px 50px;
-    background-color: rgb(255, 255, 255);
-    background-size: 161.09px 79px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 
-.header-texts {
-    background-color: rgb(255, 255, 255);
-    background-size: 113px 35px;
-    width: 113px;
-    height: 35px;
-    gap: 68px;
-    padding: 0px, 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+/****** debut récup code css info group *****/
+
+/* Info group */
+.trouver-votre-hebergement {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 35px;
+isolation: isolate;
+
+width: 1340px;
+height: 281px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
 
-.hebergements-header:hover {
-    color: #0065FC;
-    border-top: #0065FC;
-    border-top-style: solid;
+/* Headline */
+.headline-hebergment {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 1340px;
+height: 53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
 }
 
-.Activites-header:hover {
-    color: #0065FC;
-    border-top: #0065FC;
-    border-top-style: solid;
+/* Trouvez votre hébergement pour des vacances de rêve */
+.titre-trouver-hebergement {
+width: 1340px;
+height: 26px;
+
+/* Title/Section */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
 }
+
+/* En plein centre-ville ou en pleine nature */
+.centre-ville-nature {
+width: 1340px;
+height: 19px;
+
+/* Footer/Link */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/* Search-bar */
+.formulaire {
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 377px;
+height: 49px;
+
+/* White */
+background: #FFFFFF;
+/* Grey */
+border: 1px solid #F2F2F2;
+border-radius: 15px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 1;
+}
+
+/* Group 15 */
+.groupe-15 {
+width: 50px;
+height: 49px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 14 */
+.rectangle-14 
+position: absolute;
+width: 50px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+/* Grey */
+background: #F2F2F2;
+/* Grey */
+border: 1px solid #F2F2F2;
+border-radius: 15px 0px 0px 15px;
+}
+
+/* Vector */
+.fa-solid.fa-location-dot {
+
+width: 14px;
+height: 18px;
+margin-left: 18px;
+margin-top: 15px;
+
+
+}
+
+/* Marseille, France */
+::placeholder{
+width: 147px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* Button/Search/Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 16px;
+gap: 10px;
+
+width: 132px;
+height: 49px;
+
+/* Blue */
+background: #0065FC;
+/* Blue */
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+display: none;
+width: 17px;
+height: 17px;
+
+/* White */
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rechercher */
+
+width: 100px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+/* White */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* FilterBar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 15px;
+
+width: 758px;
+height: 50px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Filtres */
+
+width: 54px;
+height: 21px;
+
+/* Title/Filter */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Filter */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 19px;
+gap: 10px;
+
+width: 173px;
+height: 50px;
+
+/* Grey/Tint2 */
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 13.04%;
+bottom: 13.04%;
+
+/* Blue */
+background: #0065FC;
+
+
+/* Économique */
+
+width: 103px;
+height: 20px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Filter */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 19px;
+gap: 10px;
+
+width: 134px;
+height: 50px;
+
+/* Grey/Tint2 */
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 13.44px;
+height: 22px;
+left: calc(50% - 13.44px/2 - 0.28px);
+top: calc(50% - 22px/2);
+
+/* Blue */
+background: #0065FC;
+
+
+/* Économique */
+
+width: 64px;
+height: 20px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Filter */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 19px;
+gap: 10px;
+
+width: 170px;
+height: 50px;
+
+/* Grey/Tint2 */
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 22px;
+height: 18.33px;
+left: calc(50% - 22px/2);
+top: calc(50% - 18.33px/2 + 0.17px);
+
+background: #0065FC;
+
+
+/* Économique */
+
+width: 100px;
+height: 20px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Filter */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 19px;
+gap: 10px;
+
+width: 167px;
+height: 50px;
+
+/* Blue/Light */
+background: #DEEBFF;
+/* Grey/Tint2 */
+border: 2px solid #D9D9D9;
+border-radius: 25px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 18px;
+height: 20.08px;
+left: calc(50% - 18px/2 + 0.5px);
+top: calc(50% - 20.08px/2 + 0.04px);
+
+/* Blue */
+background: #0065FC;
+
+
+/* Économique */
+
+width: 97px;
+height: 20px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+/* Black */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Infobar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 1340px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 11 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Grey/Tint2 */
+border: 1px solid #D9D9D9;
+
+
+/* Vector */
+
+position: absolute;
+left: 0.75%;
+right: 98.96%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #0065FC;
+
+
+/* Plus de 500 logements sont disponibles dans cette ville */
+
+width: 1306px;
+height: 19px;
+
+/* Information */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Group */
+
+position: absolute;
+width: 26.9px;
+height: 27px;
+left: 745px;
+top: 208px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 55.6%;
+right: 42.4%;
+top: 74.02%;
+bottom: 16.37%;
+
+background: #FFFFFF;
+border: 2px solid #000000;
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -203,3 +1007,111 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+
+
+
+
+/*** header à moi***/ 
+
+.head-container 
+
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+
+.logo-booki 
+
+    width: 62px;
+    height: 19px;
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+    background-size: 161.09px 79px;
+
+
+nav li 
+
+    padding-top: 40px;
+
+
+.header-texts 
+    
+    width: 113px;
+    height: 35px;
+    gap: 68px;
+    padding: 0px, 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+
+
+.hebergements-header:hover 
+    color: #0065FC;
+    border-top: #0065FC;
+    border-top-style: solid;
+
+
+.Activites-header:hover 
+    color: #0065FC;
+    border-top: #0065FC;
+    border-top-style: solid;
+
+
+/*** header 2 ****/
+
+.head-container
+   
+    display: flex;
+
+
+.main-container
+
+    margin: 0 50px 50px;
+
+
+ul 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+.header-texts
+
+    display: flex;
+
+
+header 
+
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+
+.logo-booki
+
+    flex: 1;
+    margin-top: 30px;
+    width: 62px;
+    height: 19px;
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+    background-size: 161.09px 79px;
+
+
+nav a 
+
+    padding: 40px 30 0px;
+
+
+nav li 
+
+    padding-top: 40px;
+
+
+nav li:hover 
+
+    color: #0065FC;
+    border-top: #0065FC;
+    border-top-style: solid;

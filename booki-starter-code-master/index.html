@@ -19,30 +19,49 @@
     <div class="main-container">
         <header>
             <div class="head-container">
-                <img class="logo-booki" source src="./images/logo/Booki.png" />
-                    <div class="header-texts" >
-                        <a href="#" class="hebergements-header">Hébergements</a>
-                        <a href="#" class="Activites-header">Activités</a>
-                    </div>
+                <div class="head-logo">
+                    <img class="logo-booki" source src="./images/logo/Booki.png" />
+                </div>
+                    <nav class="header-nav" >
+                        <ul class="header-texts" >
+                            <li><a href="#" class="hebergements-header"><span class="hebergements-texte">Hébergements</span></a></li>
+                            <li><a href="#" class="Activites-header"><span class="activites-texte">Activités</span></a></li>
+                        </ul>
+                    </nav>
             </div>
         </header>
         <main>
-            <div class="trouver-votre-hebergement">
-                <h4 class="section-title">Trouver votre hébergement pour des vacances de rêve</h4>
-                <p>En plein centre ville ou en pleine nature</p>
+            <section class="trouver-votre-hebergement">
+                <div class="headline-hebergement">
+                    <h4 class="titre-trouver-hebergement">Trouver votre hébergement pour des vacances de rêve</h4>
+                    <a class="centre-ville-nature">En plein centre ville ou en pleine nature</a>
+                </div>
                     <div class="formulaire">
-                        <form method="get" action="">
-                            <input type="search" id="site-search" placeholder="Marseille, France" name="site-search" >
-                            <button>Rechercher</button>
-                            <label for="site-search"></label>
-                        </form>
+                        <div class="groupe-15">
+                               <div class="rectangle-14">
+                                    <div class="icone-localisation">
+                                        <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+                                    </div>
+                                </div>
+                        </div>
+                            <form class="barre-de-recherche" method="get" action="">
+                                <input class="marseille-france" type="search" id="site-search" placeholder="Marseille, France" name="site-search" >
+                                <input class="boutton-research" type="submit" value="Rechercher">
+                                <label for="site-search"></label>
+                            </form>
                         
                     </div>
                         <Div class="filtres-de-recherches" > 
-                            <P>Filtres</P>
-
+                            <i>Filtres</i>
+                            <i>Economique</i>
+                            <i>Familiale</i>
+                            <i>Romantique</i>
+                            <i>Nos Pépites</i>
                         </Div>
-            </div>
+                           <div class="info-500">
+                                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                            </div>
+            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
