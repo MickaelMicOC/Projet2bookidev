@@ -431,6 +431,7 @@ margin-bottom: 8px;
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
+    margin-bottom: 60px;
 }
 
 h6 {
