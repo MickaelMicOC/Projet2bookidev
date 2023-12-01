@@ -122,181 +122,71 @@ a {
     margin-bottom: 5px;
 }
 
-/*** récop code header**/
+/*** header ****/
 
-ul {
+header {
+    height: 4.2%;
+    width: 100%;
+}
+
+ul{
 
     list-style: none;
 }
 
-/* Header */
-header {
-width: 1440px;
-height: 79px;
+.head-container {
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    
 }
 
-/* Menu */
+.head-logo{
+
+    height: 100%;
+    width: 12.06%;
+}
+
+.head-logo img{
+    
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    width: 62px;
+    height: 19px;
+}
+
 .header-nav {
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 50px;
-gap: 68px;
-
-position: absolute;
-width: 344px;
-height: 35px;
-right: 0px;
-top: 0px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    align-self: end;
+    width: 100%;
+    height: 100%;
+    
+    
 }
 
-
-/* Buttons */
 .header-texts{
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: flex-end;
-padding: 0px;
-gap: 68px;
-
-width: 244px;
-height: 35px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    align-self: flex-end;
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    gap: 68px;
 }
 
-/* Btn Hébergement */
-.hebergements-header{
-width: 113px;
-height: 35px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
-/* Hébergements */
-.hebergement-texte {
-position: absolute;
-width: 112px;
-height: 19px;
-left: 0px;
-top: 16px;
-}
-
-nav li:hover {
-
+.header-texts li a:hover {
     color: #0065FC;
-    border-top: #0065FC;
-    border-top-style: solid;
+    border-top: 2px solid #0065FC;
+    padding-top: 22px;
+
 }
 
-/* Btn Activités */
-.Activites-header{
-width: 63px;
-height: 35px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-}
-
-/* Activités */
-.activites-tete {
-position: absolute;
-width: 63px;
-height: 19px;
-left: 181px;
-top: 16px;
-
-/* Nav/Standard */
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-text-align: center;
-
-color: #000000;
-}
-
-
-/* Rectangle 26 */
-
-position: absolute;
-width: 63px;
-height: 2px;
-left: 181px;
-top: 0px;
-
-/* Transparent */
-
-
-/* Rectangle 25 */
-
-position: absolute;
-visibility: hidden;
-width: 63px;
-height: 2px;
-left: 181px;
-top: 0px;
-
-/* Blue */
-background: #0065FC;
-
-
-/* Logo/Reservia */
-
-.head-logo {
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 30px 50px;
-gap: 10px;
-
-position: absolute;
-width: 161.09px;
-height: 79px;
-left: 0px;
-top: 0px;
-}
-
-
-/* Logo */
-.logo-booki {
-width: 61.09px;
-height: 19px;
-margin-top: 0px;
-  padding-left: 0px;
-  padding-top: 30px;
-  padding-right: 50px;
-  padding-bottom: 30px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-}
 
 /***** formulaire ****/
 
