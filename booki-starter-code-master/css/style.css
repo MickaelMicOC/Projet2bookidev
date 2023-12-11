@@ -89,6 +89,11 @@ a {
     align-items: center;
 }
 
+.populaires-title h2{
+
+font-size: 22px;
+}
+
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
