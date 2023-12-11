@@ -603,6 +603,11 @@ h6 {
         padding-bottom: 0px;
     }
 
+    .populaires-title h2 {
+
+        font-size: 22px ;
+    }
+
     .groupe-titres{
         flex-direction: column;
     }
