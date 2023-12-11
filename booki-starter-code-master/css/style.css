@@ -1,7 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
-    max-width: 1440px;
+    /**max-width: 1440px;**/
 }
 
 :root {
@@ -223,6 +223,7 @@ h4 {
 .fa-solid.fa-location-dot{
     padding-left: 20px;
     padding-top: 15px;
+    color: #000000;
 }
 
 .marseille-france {
@@ -251,6 +252,7 @@ h4 {
 
 .loupe{
     display: none;
+    color: #ffffff;
 }
 
 /** filtres **/
