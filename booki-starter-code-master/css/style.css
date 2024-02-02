@@ -1,4 +1,4 @@
-/****** General ***********/
+/****** GENERAL ***********/
 * {
     font-family: 'Raleway', sans-serif;
     /**max-width: 1440px;**/
@@ -60,7 +60,7 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+/****** HEBERGEMENTS AND POPULAIRES ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -128,7 +128,7 @@ font-size: 22px;
     margin-bottom: 5px;
 }
 
-/*** header ****/
+/*** HEADER ****/
 
 header {
     height: 4.2%;
@@ -186,7 +186,7 @@ ul{
 }
 
 
-/***** formulaire ****/
+/***** FORMULAIRES ****/
 
 /*titres*/
 
@@ -207,7 +207,7 @@ h4 {
     margin-top: 10px;
 }
 
-/* barre de recherche */
+/* barre de recherche  !!! */
 
 .barre-de-recherche {
     border-radius: 15px;
@@ -260,7 +260,7 @@ h4 {
     color: #ffffff;
 }
 
-/** filtres **/
+/** FILTRES **/
 
 .groupe-titres{
     display: flex;
@@ -331,7 +331,7 @@ h4 {
     padding-top: 2.3px;
 }
 
-/***** Hébergements à Marseille ****/
+/***** MARSEILLE HOTELS ****/
 .hebergements{
     gap: 30px;
 }
@@ -392,7 +392,7 @@ h5 {
     font-weight: 700;
 }
 
-/****** Activités à Marseille *******/
+/****** ACTIVITIES *******/
 
 .activites-marseille-container{
     display: flex;
@@ -432,7 +432,7 @@ h6 {
     padding-left: 15px;
 }
 
-/******** Footer **********/
+/******** FOOTER **********/
 
 .footer{
     width: 97%;
